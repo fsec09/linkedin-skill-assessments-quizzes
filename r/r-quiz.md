@@ -597,3 +597,31 @@ a <- list("10", TRUE, 5.6)
 - [ ] is.numeric(a[1])
 - [ ] is.logical(a[1])
 - [ ] is.character(a[1])
+
+#### Q55. Review line 1. What does the statement on line 3 return?
+1 mtrx ,- matrix(1:6, 3, 2)
+2
+3 mtrx[, -1]
+
+- [ ] :
+```
+      [,2]
+[1,]    1
+[2,]    2
+[3,]    3
+- [ ] :
+```
+      [,2]
+[1,]    4
+[2,]    5
+[3,]    6
+- [ ] :
+```
+      [,1]
+[1,]    4
+[2,]    5
+[3,]    6
+- [ ] :
+```
+[1 4,5,6
+
